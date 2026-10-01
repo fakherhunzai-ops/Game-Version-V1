@@ -1,0 +1,13 @@
+{
+  "name": "last-zone-collapse",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A mobile-first playable vertical-slice prototype for LAST ZONE: COLLAPSE.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs --dist",
+    "build": "node scripts/build.mjs",
+    "check": "node --check server.mjs && node --check src/main.js && node --check src/game.js && node --check scripts/build.mjs && node --check sw.js"
+  }
+}
